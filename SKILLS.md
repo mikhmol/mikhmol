@@ -46,7 +46,7 @@
 | ⬜ Object-based programming    | 🟩 Private fields     | 🟦 Circular list     |                          |
 | 🟦 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟦 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟩 Parent class       | 🟦 Functor           |                          |
+| 🟩 Asyncronous programming     | 🟩 Parent class       | 🟦 Functor           |                          |
 | 🟦 Parallel programming        | 🟩 Polymorphism       | 🟦 Functional object |                          |
 | 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
 | ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          |
@@ -61,22 +61,22 @@
 
 | Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques               |
 |------------------------|--------------------------------|---------------------|--------------------------|
-| 🟦 Callback-last       | 🟦 Timers                      | 🟦 Event Loop       | ⬜ async.js library      |
-| 🟦 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
-| 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
-| 🟦 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
-| 🟦 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
+| 🟩 Callback-last       | 🟩 Timers                      | 🟩 Event Loop       | ⬜ async.js library      |
+| 🟩 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
+| 🟩 Promise             | 🟦 nextTick                    | 🟩 try..catch       | ⬜ Rx.js                 |
+| 🟩 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
+| 🟩 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
 | 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
 | 🟦 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
-| 🟦 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
+| 🟩 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
 | 🟦 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
-| 🟦 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
+| 🟩 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
 | ⬜ Cancelable callback | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool            |
 | ⬜ Cancelable Promise  | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool           |
 | 🟦 Asynchronous Queue  | 🟦 Callback hell               | 🟦 Race conditions  | 🟦 callbackify           |
 | ⬜ Future              | 🟦 Promise hell                | 🟦 Dead locks       | 🟦 promisify             |
 | ⬜ Deferred            |                                | 🟦 Live locks       | ⬜ IPC                   |
-| 🟦 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
+| 🟩 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
 | ⬜ Async Collector     |                                |                     | ⬜ Revealing Constructor |
 | ⬜ Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
@@ -93,9 +93,9 @@
 | ⬜ Addons            | 🟦 Inversion of control      | ⬜ SSE            | 🟦 Transform     | 🟦 Dependencies      |
 | ⬜ N-API             | 🟦 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
 | ⬜ Webassembly       | 🟦 GRASP for JS and Node.js  | ⬜ Long polling   | 🟦 Buffer        |                      |
-| 🟦 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | 🟦 Console       |                      |
-| 🟦 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
-| 🟦 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
+| 🟩 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | 🟦 Console       |                      |
+| 🟩 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
+| 🟩 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
 | 🟦 vm isolation      | ⬜ Highload applications     | 🟦 IP sticky      | 🟦 Quality       |                      |
 | 🟦 command line args | 🟦 DDD                       | 🟦 DoS            | 🟦 Availability  |                      |
 | ⬜ Node.js CLI       | 🟦 Clean architecture        | 🟦 DDoS           | 🟦 Flexibility   |                      |
