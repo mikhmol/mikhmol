@@ -1,20 +1,10 @@
-<div align="center">
-
-# Hi there 👋
-
-**Full-Stack Software Engineer**
-
-Магістратура · [КПІ ім. Ігоря Сікорського](https://kpi.ua/) · група **ІМ-62мп**
-
-</div>
-
-## About me
+## Full-Stack Software Engineer
 
 I build full-stack web applications and combine engineering practice with master's studies.
 
 ## Technologies and tools
 
-<div align="center">
+<div>
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -34,7 +24,7 @@ I build full-stack web applications and combine engineering practice with master
 
 ## Contact
 
-<div align="center">
+<div>
 
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mishelmeow)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mikhailo.moliakov@gmail.com)
